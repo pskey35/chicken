@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+  font-family:monospace;
+
+}
+
+.container{
+  background:#000;
+  min-height:100vh;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+.boton{
+  background:rgba(255, 0, 0, 0.884);
+  outline:none;
+  border:none;
+  padding:8px 30px;
+  border-radius:4px;
+  font-size:20px;
+  font-weight:700;
+  color:white;
+  cursor:pointer;
+}
+
+.creador{
+   margin-top:3px;
+   color:rgba(196, 173, 173, 0.384);
+}
+
+
+
+
+
+
+
+
+/*arriba xd*/
+.xd{
+   display: flex;
+   position: absolute;
+   width:100vw;
+   background:black;
+   justify-content:center;
+   align-items:center;
+   min-height:100vh;
+   flex-direction:column;
+   transform:translate(0,-100%);
+   padding:0px 8px;
+}
+
+.img-padre{
+   display:flex;
+   width:100%;
+   /*background:blue;*/
+   max-width:318px;
+   height:100%;
+   max-height:318px;
+   position:relative;
+   justify-content:center;
+   padding:3px 3px;
+   border:1px solid rgb(214, 211, 211);
+}
+
+.img{
+   width:100%;
+   height:100%;
+   align-self:center;
+}
+
+.img2{
+   width:calc(100% - 6px);
+   height:calc(100% - 6px);
+   align-self:center;
+   position:absolute;
+ 
+}
+
+
+.des{
+  position:absolute;
+  display:flex;
+  bottom:-2%; /*total = 100%, 90% valor designado,, 5% en 2 lados y mitad de eso es 2.5%*/
+  align-items:center;
+  align-content:center;
+
+}
+
+
+
+.des span:first-child{
+  content:"";
+  display:inline-block;
+  width:10px;
+  height:10px;
+  background:rgb(235, 235, 235);
+  clip-path: polygon(50% 0%, 50% 100%, 0% 50%);
+  transform:translate(50%,0)
+}
+
+.des span{
+  display:inline-flex;
+  align-items:center;
+  justify-content:Center;
+  height:10px;
+  font-weight:900;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:0.7em;
+  color:rgb(19, 19, 19);
+  background:rgb(209, 209, 209);
+}
+
+.des span:last-child{
+  content:"";
+  display:inline-block;
+  width:10px;
+  height:10px;
+  background:rgb(235, 235, 235);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%);
+  transform:translate(-50%,0)
+}
+
+.texto{
+  color:white;
+  margin-top:10px;
+  text-align:center;
+}
+
+.texto p:first-child{
+  font-size:25px;
+}
+
+.texto p:last-child{
+  font-size:13px;
+}
+
+.by{
+  position:absolute;
+  bottom:10px;
+  right:15px;
+  color:rgba(196, 173, 173, 0.384);
+  opacity:0;
+}
+
+
+
+.bottom{
+  animation-name:abajo;
+  animation-fill-mode:both;
+  animation-duration:1.6s;
+}
+
+@keyframes abajo{
+  from{
+    transform:translate(0,-100%);
+  }
+
+  to{
+    transform:translate(0,0);
+  }
+}
+
+@media  only screen and (max-width:321px){
+  .texto p:first-child{
+     font-size:23px;
+  }
+
+  .texto p:last-child{
+    font-size:12.5px;
+  }
+}

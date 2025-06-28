@@ -1,22 +1,28 @@
-🐔 Chicken - Mi primer proyecto web
+## 🐔 Chicken - Mi primer proyecto web
 
-¡Hola! Este fue uno de mis primeros proyectos cuando comencé en el mundo del desarrollo web. Lo hice con muchas ganas, aprendiendo mientras creaba, y aunque es simple, le tengo bastante cariño 😄.
+¡Hola! 👋  
+Este fue uno de mis **primeros proyectos** cuando empecé en el mundo del desarrollo web. Lo hice con mucha ilusión, aprendiendo paso a paso mientras lo creaba.  
+Es un proyecto muy simple, pero le tengo un montón de cariño 😄
 
+---
 
+### 💡 ¿Qué es *Chicken*?
 
-💡 ¿Qué es Chicken?
+Es una página web muy sencilla donde practiqué lo básico de:
 
-Un pequeño experimento web donde practiqué lo básico de HTML, CSS y un poco de JavaScript. Es una página divertida con una imagen de pollo (sí, un pollo 🐔) y algunas interacciones simples.
+- 🧱 **HTML** (la estructura)
+- 🎨 **CSS** (los estilos)
+- 🧠 **JavaScript básico** (un poquito de interacción)
 
-🛠️ Tecnologías usadas
+¿La idea? Mostrar un pollo 🐔 (sí, literalmente un pollo) y jugar un poco con animaciones simples. Nada complicado, pero sí divertido.
 
-HTML
+---
 
-CSS
+### 🎯 ¿Por qué lo hice?
 
-JavaScript (nivel básico)
+Porque **todos empezamos por algún lado**.  
+Chicken fue mi primer paso en el mundo del desarrollo web, y aunque hoy sé mucho más, siempre me gusta mirar atrás y ver de dónde vengo.
 
+---
 
-🎯 ¿Por qué lo hice?
-
-Porque todos tenemos que empezar por algo. Este fue mi primer paso en este viaje del desarrollo web. Si tú también estás empezando, ¡no te desanimes por lo simple que pueda parecer tu proyecto! Lo importante es aprender haciendo.
+> 🚀 *No importa cuán pequeño sea tu primer proyecto... lo importante es comenzar.*
